@@ -1,0 +1,216 @@
+@media (max-width: 992px) {
+
+     .mainPageContainerChild{
+        width: 80%;
+    }
+    .headerMenu{
+        gap: 20px;
+    }
+    .seasonContainer{
+        height: auto;
+        flex-direction: column;
+    }
+    .seasonImagesSingle{
+        align-items: center;
+    }
+    .seasonFirstContainer{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding-top: 20px;
+        padding-bottom: 20px;  
+    }
+    .seasonImagesContainer{
+        width: 33.33%;
+        flex-direction: row;
+        gap: 50px;
+    }
+    .seasonSecondContainer{
+        width: 100%;
+    }
+    .seasonSecondWrapper{
+        height: 60vh;
+    }
+    .collectionContent{
+        display: flex;
+        justify-content: space-between;
+    }
+    .collectionCostume{
+        width: 50%;
+    }
+    .collectionWrapper{
+        width: 50%;
+        
+    }
+    .collectionContent{
+        width: 70%;
+    }
+    .collectionContent h2{
+        margin-top: 50px;
+    }
+    .collectionContent button{
+        margin-bottom: 50px;
+
+    }
+    .brendContainer div:last-child{
+        flex-direction:column;
+        flex-wrap: wrap;
+    }
+    .aboutContainer{
+        height: auto;
+        padding-top: 20px;
+    }
+    .aboutWrapper{
+        flex-direction: column; 
+    }
+    .aboutWrapper > div{
+       width: 100%;
+    }
+
+}
+@media (max-width: 768px) {
+    .menuIcon{
+        display: block;
+        width: 45px;
+    }
+    .headerMenu{
+        display: none;
+    }
+    
+    
+    .mainPageContainerChild{
+        width: 80%;
+    }
+    .seasonContainer{
+        height: auto;
+        flex-direction: column;
+       
+    }
+    .seasonImagesSingle{
+        align-items: center;
+    }
+    .seasonFirstContainer{
+        width: 100%;
+        padding-top: 20px;
+        padding-bottom: 20px;  
+        
+    }
+    .seasonImagesContainer{
+        
+       flex-direction: row;
+    }
+    .seasonSecondContainer{
+        width: 100%;
+        padding-bottom: 40px;
+       
+    }
+    .seasonSecondWrapper{
+        height: 50vh;
+    }
+    .collectionCostume{
+        display: none;
+    }
+    .collectionWrapper{
+        width: 100%;
+    }
+    .collectionContentbutton{
+        margin-top: 25px;
+    }
+    .newCollectionContainer{
+        width: 100%;
+        
+    }
+    .newCollectionContent {
+       display: flex;
+        flex-direction: column-reverse;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        align-items: center;
+    }
+    .brendContainer {
+        width: 100%;
+
+    }
+    .brendContainer div:last-child{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .aboutContainer{
+        height: auto;
+        padding-top: 20px;
+    }
+    .aboutWrapper{
+        flex-direction: column; 
+    }
+    .aboutWrapper > div{
+       width: 80%;
+       padding-bottom: 20px;
+    }
+    
+}
+@media (max-width:576px) {
+    .menuIcon{
+        display: block;
+        width: 25px;
+    }
+    .headerMenu{
+        display: none;
+    }
+    .mainPageContainerChild{
+        width: 80%;
+    }
+    .seasonContainer{
+        height: auto;
+        flex-direction: column;
+    }
+    .seasonImagesSingle{
+        align-items: center;
+    }
+    .seasonFirstContainer{
+        width: 100%;
+        padding-top: 20px;
+        padding-bottom: 20px;  
+    }
+    .seasonImagesContainer{
+        flex-direction: column;
+    }
+    .seasonSecondContainer{
+        width: 100%;
+    }
+    .seasonSecondWrapper{
+        height: 40vh;
+    }
+    .collectionCostume{
+        display: none;
+    }
+    .collectionWrapper{
+        width: 100%;
+    }
+    .collectionContent h2{
+        font-size: 22px;
+    }
+    .newCollectionContent {
+        flex-direction: column;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .brendContainer div:last-child{
+        display: flex;
+        flex-direction: column;
+    }
+    .aboutContainer{
+        height: auto;
+        padding-top: 20px;
+    }
+    .aboutWrapper{
+        flex-direction: column; 
+    }
+    .aboutWrapper > div{
+       width: 100%;
+    }
+    .footer{
+        font-size: 10px;
+    }
+}
